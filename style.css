@@ -1,13 +1,22 @@
+
 @font-face {
     font-family: 'HelveticaNeueLTPro-Md';
-    src: url('fonts/HelveticaNeueLTPro-Md.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeueLTPro-Md.otf') format('opentype'), url('fonts/HelveticaNeueLTPro-Md.woff') format('woff'), url('fonts/HelveticaNeueLTPro-Md.ttf') format('truetype'), url('fonts/HelveticaNeueLTPro-Md.svg#HelveticaNeueLTPro-Md') format('svg');
+    src: url('fonts/HelveticaNeueLTPro-Md.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HelveticaNeueLTPro-Md.otf')  format('opentype'),
+    url('fonts/HelveticaNeueLTPro-Md.woff') format('woff'),
+    url('fonts/HelveticaNeueLTPro-Md.ttf')  format('truetype'),
+    url('fonts/HelveticaNeueLTPro-Md.svg#HelveticaNeueLTPro-Md') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BeyondTheMountains';
-    src: url('fonts/BeyondTheMountains.eot?#iefix') format('embedded-opentype'), url('fonts/BeyondTheMountains.otf') format('opentype'), url('fonts/BeyondTheMountains.woff') format('woff'), url('fonts/BeyondTheMountains.ttf') format('truetype'), url('fonts/BeyondTheMountains.svg#BeyondTheMountains') format('svg');
+    src: url('fonts/BeyondTheMountains.eot?#iefix') format('embedded-opentype'),
+    url('fonts/BeyondTheMountains.otf')  format('opentype'),
+    url('fonts/BeyondTheMountains.woff') format('woff'),
+    url('fonts/BeyondTheMountains.ttf')  format('truetype'),
+    url('fonts/BeyondTheMountains.svg#BeyondTheMountains') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,7 +33,6 @@ img {
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
-
 a {
     color: royalblue;
 }
@@ -33,9 +41,7 @@ a:visited {
     color: purple;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover, a:focus, a:active {
     color: midnightblue;
 }
 
@@ -43,8 +49,7 @@ a:focus {
     outline: thin dotted;
 }
 
-a:hover,
-a:active {
+a:hover, a:active {
     outline: 0;
     list-style: none;
 }
@@ -52,7 +57,6 @@ a:active {
 /*--------------------------------------------------------------
 # Helper Utilities
 --------------------------------------------------------------*/
-
 .flex {
     display: flex !important;
 }
@@ -66,7 +70,6 @@ a:active {
 /*--------------------------------------------------------------
 # Outer Container
 --------------------------------------------------------------*/
-
 @media screen and (min-width: 1200px) {
     .outer-container {
         width: calc(100% - 90px);
@@ -77,11 +80,9 @@ a:active {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-
 /*
 # Header Bar Text
 --------------------------------*/
-
 .header-bar-text,
 .header-bar-email {
     font-size: 12px;
@@ -101,7 +102,6 @@ a:active {
 /*
 # Header Bar Email
 --------------------------------*/
-
 .header-bar-email a {
     color: #afafaf;
 }
@@ -109,7 +109,6 @@ a:active {
 /*
 # Header Bar Social
 --------------------------------*/
-
 .header-bar-social {
     margin-right: 15px;
 }
@@ -142,7 +141,6 @@ a:active {
 /*
 # Header Bar search
 --------------------------------*/
-
 .header-bar-search {
     margin-top: 30px;
 }
@@ -164,11 +162,12 @@ a:active {
     outline: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .header-bar-search {
         width: 300px;
         margin-top: 0;
     }
+
     .header-bar-search input[type="search"] {
         text-align: right;
     }
@@ -177,7 +176,6 @@ a:active {
 /*
 # Site Branding
 --------------------------------*/
-
 .site-branding {
     padding: 40px 0;
 }
@@ -202,10 +200,11 @@ a:active {
     text-align: right;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px){
     .site-title {
         font-size: 112px;
     }
+
     .site-description {
         width: 284px;
         margin: -10px 0 0;
@@ -215,7 +214,6 @@ a:active {
 /*
   Hamburger Menu
 ----------------------------------------*/
-
 .hamburger-menu {
     position: relative;
     width: 100%;
@@ -274,7 +272,6 @@ a:active {
 /*
 # Main Menu
 --------------------------------*/
-
 .site-navigation {
     position: absolute;
     left: 0;
@@ -335,7 +332,6 @@ a:active {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
 .hero-slider {
     margin-top: 40px;
 }
@@ -346,8 +342,7 @@ a:active {
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
+.swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 30px;
     left: 38px;
     text-align: left;
@@ -402,7 +397,7 @@ a:active {
     background: #fff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .swiper-button-next,
     .swiper-button-prev {
         visibility: visible;
@@ -412,7 +407,6 @@ a:active {
 /*
 # Youtube Subscribe
 --------------------------------*/
-
 .yt-subscribe {
     position: absolute;
     right: 15px;
@@ -444,19 +438,19 @@ a:active {
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .yt-subscribe {
         bottom: -250px;
     }
+
     .yt-subscribe img {
         width: auto;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .yt-subscribe {
-        bottom: -200px;
-        );
+        bottom: -200px;);
         text-align: center;
     }
 }
@@ -464,7 +458,6 @@ a:active {
 /*--------------------------------------------------------------
 # Homepage
 --------------------------------------------------------------*/
-
 .single-page {
     padding-top: 165px;
     padding-bottom: 100px;
@@ -590,19 +583,23 @@ a:active {
     color: #afafaf;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .single-page {
         padding-top: 0;
     }
+
     .post-share {
         margin-top: 0;
     }
+
     .content-wrap a.read-more {
         margin-top: 0;
     }
+
     .comments-count {
         text-align: right;
     }
+
     .post-share,
     .comments-count {
         width: calc(50% - 100px);
@@ -612,7 +609,6 @@ a:active {
 /*--------------------------------------------------------------
 # Page Header
 --------------------------------------------------------------*/
-
 .page-header {
     position: relative;
     height: 385px;
@@ -629,7 +625,6 @@ a:active {
 /*--------------------------------------------------------------
 # About Page
 --------------------------------------------------------------*/
-
 .about-second-image {
     margin-top: 100px;
 }
@@ -665,10 +660,11 @@ a:active {
     color: #afafaf;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .awards-content {
         margin-bottom: 0;
     }
+
     .about-page .post-share,
     .about-page .comments-count {
         margin-top: 100px;
@@ -678,7 +674,6 @@ a:active {
 /*--------------------------------------------------------------
 # Blog Page
 --------------------------------------------------------------*/
-
 .about-page .content-wrap p,
 .blog-page .content-wrap p {
     margin-bottom: 34px;
@@ -700,7 +695,6 @@ a:active {
 /*
 # Comments
 --------------------------------*/
-
 .post-comments,
 .comment-form {
     margin-top: 100px;
@@ -794,11 +788,12 @@ a:active {
     background: #2f2f2f;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .comment-author-avatar {
         width: 100px;
         margin-right: 42px;
     }
+
     .comment-wrap {
         width: calc(100% - 145px);
     }
@@ -807,7 +802,6 @@ a:active {
 /*--------------------------------------------------------------
 # Contact Page
 --------------------------------------------------------------*/
-
 .contact-page .content-wrap .entry-header {
     text-align: left;
 }
@@ -873,7 +867,7 @@ a:active {
     background: #2f2f2f;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .contact-page-social li {
         margin-right: 65px;
         font-size: 24px;
@@ -883,7 +877,6 @@ a:active {
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
-
 .sidebar {
     margin-top: 110px;
 }
@@ -892,7 +885,7 @@ a:active {
     margin-top: 165px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .single-page .sidebar {
         margin-top: 290px;
     }
@@ -901,7 +894,6 @@ a:active {
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
-
 .about-me {
     text-align: center;
 }
@@ -921,7 +913,6 @@ a:active {
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
-
 .recent-posts {
     padding-top: 1px;
     margin-top: 12px;
@@ -977,10 +968,12 @@ a:active {
     .recent-post-wrap {
         display: flex;
     }
+
     .recent-post-wrap figure {
         width: 260px;
         margin: 0 60px 0 0;
     }
+
     .recent-post-wrap .entry-header {
         width: calc(100% - 300px);
     }
@@ -989,7 +982,6 @@ a:active {
 /*--------------------------------------------------------------
 # Sidebar Tags
 --------------------------------------------------------------*/
-
 .sidebar .tags-list {
     margin-top: 100px;
     text-align: center;
@@ -1016,7 +1008,6 @@ a:active {
 /*--------------------------------------------------------------
 # Sidebar Ads
 --------------------------------------------------------------*/
-
 .sidebar-ads {
     margin-top: 100px;
     text-align: center;
@@ -1035,7 +1026,6 @@ a:active {
 /*--------------------------------------------------------------
 # Pagination
 --------------------------------------------------------------*/
-
 .pagination {
     margin-top: 100px;
 }
@@ -1071,7 +1061,6 @@ a:active {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
 .sit-footer {
     padding-top: 100px;
     border-top: 1px solid #d8d8d8;
@@ -1131,7 +1120,7 @@ a:active {
     text-transform: capitalize;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
     .footer-post-wrap {
         margin-bottom: 0;
     }
@@ -1140,7 +1129,6 @@ a:active {
 /*--------------------------------------------------------------
 # Footer Instagram
 --------------------------------------------------------------*/
-
 .footer-instagram {
     margin-top: 60px;
 }
@@ -1155,31 +1143,32 @@ a:active {
     width: 100%;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px){
     .footer-instagram figure {
         width: 25%;
         margin: 0;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     .footer-instagram figure {
         width: 20%;
         margin: 0;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .footer-instagram figure {
         width: auto;
         margin: 0;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
     .footer-instagram {
         margin-top: 100px;
     }
+
     .footer-instagram figure img {
         display: block;
         width: 100%;
@@ -1190,7 +1179,6 @@ a:active {
 /*--------------------------------------------------------------
 # Footer Bar
 --------------------------------------------------------------*/
-
 .footer-bar {
     padding: 22px 0;
     background: #2f2f2f;
@@ -1235,9 +1223,11 @@ a:active {
     .footer-copyright p {
         text-align: left;
     }
+
     .footer-social {
         margin-top: 0;
     }
+
     .footer-social li {
         margin: 0 0 0 30px;
     }
