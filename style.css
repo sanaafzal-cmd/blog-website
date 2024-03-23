@@ -430,6 +430,7 @@ a:hover, a:active {
 }
 
 .yt-subscribe p {
+    text-align: justify;
     padding: 0 15px;
     margin-top: 15px;
     font-size: 12px;
@@ -440,7 +441,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 768px){
     .yt-subscribe {
-        bottom: -250px;
+        top: 50px;
     }
 
     .yt-subscribe img {
@@ -497,6 +498,7 @@ a:hover, a:active {
 
 .single-page .content-wrap .featured-image img {
     max-width: 100%;
+    width: 100%;
 }
 
 .single-page .content-wrap .entry-content {
