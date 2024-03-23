@@ -451,7 +451,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px){
     .yt-subscribe {
-        bottom: -200px;);
+        bottom: -200px;
         text-align: center;
     }
 }
@@ -565,6 +565,7 @@ a:hover, a:active {
     color: #2f2f2f;
 }
 
+
 .content-wrap a.read-more {
     display: block;
     width: 200px;
@@ -574,6 +575,17 @@ a:hover, a:active {
     color: #fff;
     line-height: 1;
     background: #2f2f2f;
+}
+
+.read{
+    display: block;
+   
+    
+   
+    font-size: 14px;
+    color: #000000;
+    line-height: 1;
+   text-decoration: underline;
 }
 
 .comments-count {
