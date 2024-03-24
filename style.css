@@ -933,7 +933,7 @@ a:hover, a:active {
 }
 
 .recent-post-wrap {
-    margin-top: 42px;
+    margin-top: 22px;
     text-align: center;
 }
 
@@ -971,6 +971,7 @@ a:hover, a:active {
     font-size: 12px;
     color: #afafaf;
 }
+
 
 @media screen and (min-width: 576px) {
     .recent-post-wrap {
