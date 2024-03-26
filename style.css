@@ -696,6 +696,23 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Blog Page
 --------------------------------------------------------------*/
+.blog-page-articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+   
+}
+.blog-page-articles > div{
+    flex: 33%;
+}
+.blog-page-articles .recent-post-wrap figure img{
+    height: 220px;
+    width: 90%;
+    max-width: 100%;
+}
 .about-page .content-wrap p,
 .blog-page .content-wrap p {
     margin-bottom: 34px;
