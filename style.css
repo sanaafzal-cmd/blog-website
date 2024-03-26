@@ -460,7 +460,7 @@ a:hover, a:active {
 # Homepage
 --------------------------------------------------------------*/
 .single-page {
-    padding-top: 165px;
+    /* padding-top: 165px; */
     padding-bottom: 100px;
 }
 
@@ -499,6 +499,9 @@ a:hover, a:active {
 .single-page .content-wrap .featured-image img {
     max-width: 100%;
     width: 100%;
+}
+.entry-content{
+    color: #6f6e6e;
 }
 
 .single-page .content-wrap .entry-content {
@@ -639,6 +642,11 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # About Page
 --------------------------------------------------------------*/
+.about-fig-sec{
+    display: flex;
+    flex: 50% 50%;
+}
+
 .about-second-image {
     margin-top: 100px;
 }
