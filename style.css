@@ -856,6 +856,10 @@ a:hover, a:active {
                   font-size: 16px;
                   color: #232323; }
 
+                  .post-published-2 a{
+                    text-decoration: underline;
+                  }
+                  
 /*
 # Comments
 --------------------------------*/
