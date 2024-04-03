@@ -513,6 +513,10 @@ a:hover, a:active {
     line-height: 2rem;
     text-align: left;
 }
+.single-page .content-wrap .entry-content h4{
+    text-align: left;
+}
+
 
 .single-page .blockquote-text {
     padding-left: 114px;
