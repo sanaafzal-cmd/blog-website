@@ -543,7 +543,7 @@ a:hover, a:active {
     text-align: left;
     font-weight: bold;
 }
-.sidebar h5{
+.single-blog-sidebar h5{
     font-weight: bold;
     color: #550683;
     text-decoration-line: underline;
@@ -1084,6 +1084,9 @@ a:hover, a:active {
 # Sidebar
 --------------------------------------------------------------*/
 .sidebar {
+    margin-top: 110px;
+}
+.single-blog-sidebar{
     margin-top: 110px;
 }
 
