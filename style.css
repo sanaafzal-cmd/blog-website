@@ -1141,6 +1141,29 @@ a.btn,.btn {
         font-size: 24px;
     }
 }
+.insta-block{
+    height: 200px;
+    width: 200px;
+    background-color: #cd486b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x-block{
+    height: 200px;
+    width: 200px;
+    background-color: #1DA1F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-social-icon{
+    color: #ffffff !important;
+}
+::placeholder{
+    font-weight: bold !important;
+    font-size: 15px;
+}
 
 /*--------------------------------------------------------------
 # Sidebar
@@ -1527,7 +1550,7 @@ a.btn,.btn {
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
   top: 0;
-  height: 20rem;
+  height: fit-content;
 }
 .feature-box-1 * {
   -moz-transition: ease all 0.35s;
@@ -1539,7 +1562,7 @@ a.btn,.btn {
   width: 70px;
   height: 70px;
   line-height: 70px;
-  background: #AC8181;
+  background: #e5660a;
   color: #ffffff;
   text-align: center;
   border-radius: 50%;
@@ -1556,7 +1579,10 @@ a.btn,.btn {
 .feature-box-1 p {
   margin: 0;
 }
-.feature-box-1:after {
+.comp-screen{
+    border-radius: 5px;
+}
+/* .feature-box-1:after {
   content: "";
   position: absolute;
   top: 0;
@@ -1571,8 +1597,8 @@ a.btn,.btn {
   -o-transition: ease all 0.35s;
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
-}
-.feature-box-1:hover {
+} */
+/* .feature-box-1:hover {
   top: -5px;
 }
 .feature-box-1:hover h5 {
@@ -1587,7 +1613,7 @@ a.btn,.btn {
   border-radius: 10px;
   left: 0;
   right: auto;
-}
+} */
 .section {
     padding: 100px 0;
     position: relative;
@@ -1600,7 +1626,7 @@ a.btn,.btn {
     color: #323232;
     font-size: 45px;
     margin: 0 0 15px;
-    border-left: 5px solid #AC8181;
+    border-left: 5px solid #e5660a;
     padding-left: 15px;
 }
 .feature-content h5{
