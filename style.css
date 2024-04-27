@@ -543,6 +543,9 @@ a:hover, a:active {
     text-align: left;
     font-weight: bold;
 }
+.entry-content p{
+    text-align: justify !important;
+}
 .entry-content h3{
     text-align: left;
     font-weight: bold;
@@ -1148,6 +1151,8 @@ a.btn,.btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .x-block{
     height: 200px;
@@ -1156,6 +1161,8 @@ a.btn,.btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .contact-social-icon{
     color: #ffffff !important;
