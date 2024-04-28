@@ -30,6 +30,11 @@ src:url('fonts/SterlingDisplayRoman.ttf');
     src:url('fonts/AlexBrush-Regular.ttf');
     }
 
+    @font-face{
+        font-family: 'Rosmatika';
+        src:url('fonts/RosmatikaRegular-BWA45.ttf');
+        }
+
 
 body {
     color: #000000;
@@ -194,7 +199,8 @@ a:hover, a:active {
 
 .site-title {
     font-size: 65px;
-    font-family: 'BeyondTheMountains';
+    font-family: 'Rosmatika', sans-serif;
+   
 }
 
 .site-title a {
@@ -205,6 +211,7 @@ a:hover, a:active {
 .site-description {
     width: 284px;
     margin: -5px 0 0;
+    /* margin-top: -40px; */
     font-size: 15px;
     letter-spacing: 0.26rem;
     color: #000000 !important;
