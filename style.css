@@ -200,6 +200,7 @@ a:hover, a:active {
 .site-title {
     font-size: 65px;
     font-family: 'Rosmatika', sans-serif;
+    
    
 }
 
@@ -212,11 +213,11 @@ a:hover, a:active {
     width: 284px;
     margin: -5px 0 0;
     /* margin-top: -40px; */
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 0.26rem;
     color: #000000 !important;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
 }
 
 @media screen and (min-width: 576px){
@@ -226,7 +227,7 @@ a:hover, a:active {
 
     .site-description {
         width: 284px;
-        margin: -10px 0 0;
+        margin: -30px 0 0;
     }
 }
 
